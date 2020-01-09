@@ -1,0 +1,78 @@
+/*
+// $("*").css({"visibility" : "hidden"});
+// // $("#huobi-chart").css({"display" : "none"});
+//
+// $("#head_nav").css({"position":"fixed", "z-index": 999, "visibility":"visible", left:10, top: 0});
+// $("#head_nav *").css({"visibility":"visible"});
+//
+// $("#drawer").css({"position":"fixed", "z-index": 999, "visibility":"visible", left:10, top: 56, width:350});
+// $("#drawer *").css({"visibility":"visible"});
+//
+// $("#ticker_wrap").css({"position":"fixed", "z-index": 999, "visibility":"visible", left:380, top: 56, width:800});
+// $("#ticker_wrap *").css({"visibility":"visible"});
+//
+// $("#mod_trade").css({"position":"fixed", "z-index": 999, "visibility":"visible", left:380, top: 114, width:800, height: 510});
+// $("#mod_trade *").css({"visibility":"visible"});
+*/
+
+* {
+	visibility : hidden;
+}
+
+#head_nav {
+	position: fixed;
+	z-index: 999;
+	visibility: visible;
+	top: 0;
+	left:10px;
+}
+#head_nav *
+{
+	visibility : visible;
+}
+
+dl.select_lang {
+	visibility : hidden !important;
+}
+
+
+#drawer {
+	position: fixed;
+	z-index: 999;
+	visibility: visible;
+	left:10px;
+	top: 56px;
+	width: 350px;
+}
+#drawer *
+{
+	visibility : visible;
+}
+
+
+#ticker_wrap {
+	position: fixed;
+	z-index: 999;
+	visibility: visible;
+	left:380px;
+	top: 56px;
+	width: 800px;
+}
+#ticker_wrap *
+{
+	visibility : visible;
+}
+
+#mod_trade {
+	position: fixed;
+	z-index: 999;
+	visibility: visible;
+	left:380px;
+	top: 114px;
+	width: 800px;
+	height: 510px;
+}
+#mod_trade *
+{
+	visibility : visible;
+}

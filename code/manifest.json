@@ -1,0 +1,27 @@
+﻿{
+	"manifest_version": 2,
+	"name": "火币助手",
+	"version": "0.0.1",
+	"description": "火币助手.",
+	"browser_action": {
+		"default_title": "火币助手",
+		"default_popup": "popup.html",
+		"default_icon": "logo.png"
+	},
+	"permissions": [
+		"tabs",
+		"file://*/*",
+		"http://*/*",
+		"https://*/*"
+	],
+	"background": {
+		"page" : "background.html",
+		"persistent": true
+	},
+
+	//https://developer.chrome.com/extensions/manifest/web_accessible_resources
+	"web_accessible_resources" : [
+		"*",
+		"inject/*"
+	]
+}
